@@ -7,12 +7,23 @@
   <version>1.0-SNAPSHOT</version>
   <name>pdf-extractor-app</name>
   <url>http://maven.apache.org</url>
+
   <dependencies>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/libs/pdfbox-2.0.18.jar</systemPath>
+    </dependency>
+
   </dependencies>
+
 </project>
